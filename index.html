@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Abandonment Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Cart Abandonment Dashboard</h1>
+  <p class="subtitle">Track customers who left items in their cart and monitor recovery progress.</p>
+
+  <div class="filters">
+    <input type="text" placeholder="Search by customer or product...">
+    <select>
+      <option>All Status</option>
+      <option>Recovered</option>
+      <option>Pending</option>
+      <option>Email Sent</option>
+    </select>
+    <button>Export Data</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Customer Name</th>
+        <th>Products Left in Cart</th>
+        <th>Cart Value</th>
+        <th>Email Status</th>
+        <th>Last Activity</th>
+        <th>Recovery Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Aisha Hassan</td>
+        <td>Shoes, Bag, Watch</td>
+        <td>₦24,500</td>
+        <td>Email Sent</td>
+        <td>3 days ago</td>
+        <td><button class="recover-btn">Send Reminder</button></td>
+      </tr>
+      <tr>
+        <td>John Mark</td>
+        <td>Headphones</td>
+        <td>₦8,900</td>
+        <td>Email Opened</td>
+        <td>1 day ago</td>
+        <td><button class="recover-btn">Offer Coupon</button></td>
+      </tr>
+      <tr>
+        <td>Blessing Emmanuel</td>
+        <td>Shirt, Jeans, Shoes</td>
+        <td>₦47,300</td>
+        <td>Pending</td>
+        <td>10 days ago</td>
+        <td><button class="recover-btn">Follow Up</button></td>
+      </tr>
+      <tr>
+        <td>Sade Michael</td>
+        <td>Lamp, Mug</td>
+        <td>₦12,200</td>
+        <td>Recovered</td>
+        <td>2 days ago</td>
+        <td><button class="recover-btn">View Order</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="note">Tip: Focus on customers with high-value carts or recent activity first.</p>
+</body>
+</html>

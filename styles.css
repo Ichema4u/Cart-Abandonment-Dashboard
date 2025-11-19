@@ -1,0 +1,89 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Filters Section */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select,
+.filters button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #45a049;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Button inside table */
+.recover-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.recover-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Note */
+.note {
+  text-align: center;
+  color: #555;
+  margin-top: 15px;
+  font-size: 14px;
+}
